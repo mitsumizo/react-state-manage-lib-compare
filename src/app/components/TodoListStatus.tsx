@@ -9,12 +9,14 @@ type TodoListStatusProps = {
 
 const TodoListStatus = (props: TodoListStatusProps) => {
   return (
-    <ul className="font-bold">
-      <li>Total items : {props.totalNum}</li>
-      <li>Items Completed : {props.totalCompletedNum}</li>
-      <li>Items not Completed : {props.totalUncompletedNum}</li>
-      <li>Percent completed : {props.percentCompleted}%</li>
-    </ul>
+    <div className="shadow-lg sm:w-9/12 md:w-1/3 mb-10 p-5">
+      <ul className="font-bold">
+        <li>Total items : {props.totalNum}</li>
+        <li>Items Completed : {props.totalCompletedNum}</li>
+        <li>Items not Completed : {props.totalUncompletedNum}</li>
+        <li>Percent completed : {props.percentCompleted}%</li>
+      </ul>
+    </div>
   );
 };
 

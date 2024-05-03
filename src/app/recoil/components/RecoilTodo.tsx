@@ -13,12 +13,8 @@ const RecoilTodo = () => {
 
   return (
     <div className="container mx-auto mt-10">
-      <div className="shadow-lg w-1/3 mb-10 p-5">
-        <RecoilTodoListStatus />
-      </div>
-      <div className="mb-10">
-        <RecoilTodoListFilters />
-      </div>
+      <RecoilTodoListStatus />
+      <RecoilTodoListFilters />
       <RecoilTodoItemCreator />
       <div className="max-h-96 overflow-y-auto my-10">
         <h2 className="text-2xl font-bold">Todo List</h2>

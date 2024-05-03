@@ -14,12 +14,8 @@ const JotaiTodo = () => {
 
   return (
     <div className="container mx-auto mt-10">
-      <div className="shadow-lg w-1/3 mb-10 p-5">
-        <JotaiTodoListStatus />
-      </div>
-      <div className="mb-10">
-        <JotaiTodoListFilter />
-      </div>
+      <JotaiTodoListStatus />
+      <JotaiTodoListFilter />
       <JotaiTodoItemCreator />
       <div className="max-h-96 overflow-y-auto my-10">
         <h2 className="text-2xl font-bold">Todo List</h2>

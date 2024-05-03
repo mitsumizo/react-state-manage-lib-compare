@@ -8,7 +8,7 @@ type HeaderProps = {
 
 const Header = (props: HeaderProps) => {
   return (
-    <header className="fixed top-0 w-full bg-lime-300 text-black text-3xl p-4 text-center shadow-md z-50">
+    <header className="fixed top-0 w-full bg-lime-300 text-black text-3xl p-4 sm:text-center lg:text-center shadow-md z-50">
       <Link href="/">{props.name}</Link>
       <Link
         href="https://github.com/mitsumizo/react-state-manage-lib-compare"

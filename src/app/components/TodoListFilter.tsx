@@ -8,7 +8,7 @@ type TodoListFilterProps = {
 
 const TodoListFilter = ({ filter, set }: TodoListFilterProps) => {
   return (
-    <>
+    <div className="mb-10 ml-2">
       <label htmlFor="filterTodo" className="mr-5">
         Filter :
       </label>
@@ -25,7 +25,7 @@ const TodoListFilter = ({ filter, set }: TodoListFilterProps) => {
           {FilterState.SHOW_UNCOMPLETED}
         </option>
       </select>
-    </>
+    </div>
   );
 };
 
