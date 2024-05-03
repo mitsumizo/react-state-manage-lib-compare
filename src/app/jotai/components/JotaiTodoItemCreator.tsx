@@ -5,6 +5,7 @@ import { atom, useSetAtom } from "jotai";
 import { todosAtom } from "@/app/jotai/atoms/todoState";
 import { Todo } from "@/app/types/Todo";
 import TodoItemCreator from "@/app/components/TodoItemCreator";
+import { getId } from "@/app/util/getId";
 
 const JotaiTodoItemCreator = () => {
   // 入力されたTodo名はuseStateで管理する
